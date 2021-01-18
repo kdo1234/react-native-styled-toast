@@ -36,6 +36,9 @@ const Icon: React.FC<IconProps> = (props) => {
     case 'FontAwesome':
       Icon = FontAwesome
       break
+    case 'FontAwesome5':
+      Icon = FontAwesome5
+      break
     case 'Foundation':
       Icon = Foundation
       break
